@@ -30,12 +30,12 @@ public class hammingdistance {
         String str2="heelo";
 
         hammingdista(str1,str2);                                         //Calling Method1 
-        System.out.println(hammingdista(str1, str2));
+        System.out.println("Hamming Distance :"+hammingdista(str1, str2));
 
         int arrA[]={1,1,0,1};
         int arrB[]={1,1,0,1};     
 
        hamming(arrA, arrB);                                             //Calling Method2
-       System.out.println(hamming(arrA, arrB));
+       System.out.println("Hamming Distance :"+hamming(arrA, arrB));
     }
 }
