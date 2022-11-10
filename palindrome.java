@@ -9,19 +9,19 @@ import java.io.StringReader;
 import java.util.*;
 
 public class palindrome {
-    public boolean palindrom(String word){
-        char[] charArray=word.toCharArray();
-        int star=0;
-        int end=word.length()-1;
+    public static boolean palindrom(String str){
+        char[] charArray=str.toCharArray();
+        int start=0;
+        int end=str.length()-1;
 
-        while(star<end){
+        while(start<end){
             if(charArray[start] != charArray[end]){
                 return false;
             }
             start++;
             end--;
         }
-        return 0;
+        return true;
     }
 
 
@@ -29,13 +29,16 @@ public class palindrome {
 
 
     public static void main(String[] args) {
-        StringReader stringUtil =new StringReader(null);
-        if(stringUtil.palindrom("madam")){
-            System.out.println("string is palindrome");
+        String str = "";
+        str = str.toLowerCase();
+        boolean A = palindrom(str);
+
+
+        if(A){
+            System.out.println("String is Palindrome");
         }
         else{
             System.out.println("String is not palindrome");
-        }
-
+        } 
     }
 }
