@@ -10,9 +10,7 @@ public class findmissingno {
     }
 
     public static void main(String[] args) {
-
         int[] myarray={1,3,6,8,2,4,7};
-        
         missing(myarray);
         System.out.println(missing(myarray));
 
