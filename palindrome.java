@@ -23,16 +23,10 @@ public class palindrome {
         }
         return true;
     }
-
-
-
-
-
     public static void main(String[] args) {
         String str = "";
         str = str.toLowerCase();
         boolean A = palindrom(str);
-
 
         if(A){
             System.out.println("String is Palindrome");
