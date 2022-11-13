@@ -20,11 +20,13 @@ public class singlylinkedlist {
         ListNode second=new ListNode(1);
         ListNode third=new ListNode(8);
         ListNode fourth=new ListNode(11);
+        ListNode fifth=new ListNode(15);
 
         //ne we will connect them to form a Chain
 
        sll.head.next=second; //10-->1 
        second.next=third;    //10-->1-->8
        third.next=fourth;    //10-->1-->8-->11
+       fourth.next=fifth;
     }
 }
