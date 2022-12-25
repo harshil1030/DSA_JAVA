@@ -5,8 +5,8 @@
 // i.e  121,dad,mom those are palindrome strings .
 // so write a program which shows you ; if string is palindrome then return true ;
 // else return False ;
-import java.io.StringReader;
-import java.util.*;
+//import java.io.StringReader;
+//import java.util.*;
 
 public class palindrome {
     public static boolean palindrom(String str){
