@@ -1,9 +1,11 @@
-import java.util.Scanner;
-
+//import java.util.Scanner;
 //Lecture no: 35 
 //Topic: Represent a Singly linked List in java.
 //there are total 3 types of Linked List 
 //1.Singly Linked List 2.Doubly linked list 3.Circular Linked List
+
+
+
 
 public class singlylinkedlist {
     private ListNode head;    //instance variable of type listnode //holding Linked List
@@ -17,6 +19,8 @@ public class singlylinkedlist {
         } 
     }
 
+
+
     // Printing Elements of Linkedlist 
     public void print(int ssl){
         ListNode current=head;
@@ -27,6 +31,8 @@ public class singlylinkedlist {
         }
         System.out.println("null");
     }
+
+
 
      //Finding the Length of linked list.
 
@@ -41,6 +47,32 @@ public class singlylinkedlist {
         System.out.println(count);
     }
    
+
+
+    public void addnode(int value){
+        ListNode newnode=new ListNode(value);
+        newnode.next=head;
+        head=newnode;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public static void main(String[] args) {
         singlylinkedlist sll = new singlylinkedlist();
 
@@ -68,6 +100,6 @@ public class singlylinkedlist {
       //caling Methods 
        sll.print(0);   
        sll.count(0);
-
+       sll.addnode(17);
     }
 }
