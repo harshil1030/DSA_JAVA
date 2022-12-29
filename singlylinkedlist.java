@@ -47,6 +47,23 @@ public class singlylinkedlist {
         System.out.println(count);
     }
    
+    // Reversing the Linked List 
+    
+    public ListNode reverseList(ListNode head){
+        ListNode prev=null;
+
+
+        while(head!=null){
+            ListNode next=head.next;
+            head.next=prev;
+            prev=head;
+            head=next;
+        }
+        return prev;
+
+        
+    }
+
 
 
     public void addnode(int value){
@@ -101,5 +118,10 @@ public class singlylinkedlist {
        sll.print(0);   
        sll.count(0);
        sll.addnode(17);
+
+
+
+
+
     }
 }
