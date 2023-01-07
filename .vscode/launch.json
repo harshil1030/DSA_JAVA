@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch singlylinkedlist",
+            "request": "launch",
+            "mainClass": "singlylinkedlist",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
             "name": "Launch palindrome",
             "request": "launch",
             "mainClass": "palindrome",

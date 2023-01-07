@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+
+
 //import java.util.Scanner;
 //Lecture no: 35 
 //Topic: Represent a Singly linked List in java.
@@ -60,9 +63,9 @@ public class singlylinkedlist {
             head=next;
         }
         return prev;
-
-        
     }
+
+
 
 
 
@@ -100,7 +103,17 @@ public class singlylinkedlist {
         ListNode fifth=new ListNode(15);
         ListNode sixth=new ListNode(19);
 
-        //ne we will connect them to form a Chain
+
+        LinkedList<String> animals=new LinkedList<>();
+
+        animals.add("Dog");
+        animals.add("cat");
+        animals.add("cow");
+
+        System.out.println("Animals :" +animals);
+        
+
+        //now we will connect them to form a Chain
 
        sll.head.next=second; //10-->1 
        second.next=third;    //10-->1-->8
@@ -109,15 +122,22 @@ public class singlylinkedlist {
        fifth.next=sixth;
        sixth.next=null;
 
+
+        //Creating Linked List Using Simple Way 
+       
+        
+
+
+
       // Scanner sl=new Scanner(System.in);
       // System.out.println("Enter the Elements you want to Enter in LL :");
       // String input= sl.nextLine();
        
 
       //caling Methods 
-       sll.print(0);   
-       sll.count(0);
-       sll.addnode(17);
+    //    sll.print(0);   
+    //    sll.count(0);
+    //    sll.addnode(17);
 
 
 
