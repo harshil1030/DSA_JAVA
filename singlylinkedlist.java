@@ -55,7 +55,6 @@ public class singlylinkedlist {
     public ListNode reverseList(ListNode head){
         ListNode prev=null;
 
-
         while(head!=null){
             ListNode next=head.next;
             head.next=prev;
@@ -76,18 +75,23 @@ public class singlylinkedlist {
     }
 
 
+    //Printing the length of linked list
 
+    public int length(int sll){
 
+        //if(head=null){
+        //    return 0;
+      //  }
 
+        int count=0;
+        ListNode current=head;
+        while(current!=null){
+            count++;
+            current=current.next;
 
-
-
-
-
-
-
-
-
+        }
+        return count;
+    }
 
 
 
@@ -122,6 +126,8 @@ public class singlylinkedlist {
        fifth.next=sixth;
        sixth.next=null;
 
+     //  System.out.println("Length :" +length(sll));
+
 
         //Creating Linked List Using Simple Way 
        
@@ -133,7 +139,7 @@ public class singlylinkedlist {
       // System.out.println("Enter the Elements you want to Enter in LL :");
       // String input= sl.nextLine();
        
-
+    sll.print(0);
       //caling Methods 
     //    sll.print(0);   
     //    sll.count(0);
