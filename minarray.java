@@ -17,6 +17,12 @@ public class minarray {
 
         minimumfromarray(myarray);       // yaha baithe baithe method ko awaz lagaya(myarray name se)
         System.out.println(minimumfromarray(myarray));  //print
+
+
+
+
+
+        
     }
 
 }

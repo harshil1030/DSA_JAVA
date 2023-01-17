@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch findmissingno",
+            "request": "launch",
+            "mainClass": "findmissingno",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
             "name": "Launch singlylinkedlist",
             "request": "launch",
             "mainClass": "singlylinkedlist",
