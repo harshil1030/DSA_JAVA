@@ -1,7 +1,7 @@
 //Sorting an Array Medium Leetcode Array Problems..
 public class sortarray {
 
-    public static void sortarray(int[] arr){
+    public static void sortaarray(int[] arr){
         int i,j;
         int temp;
 
@@ -29,7 +29,7 @@ public class sortarray {
             System.out.print(myarray[i]+" ");
         }
 
-        sortarray(myarray);                           //Calling above Method.
+        sortaarray(myarray);                           //Calling above Method.
         
     }
 }

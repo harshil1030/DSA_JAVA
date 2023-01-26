@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch resizeanarray",
+            "request": "launch",
+            "mainClass": "resizeanarray",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
+            "name": "Launch sortarray",
+            "request": "launch",
+            "mainClass": "sortarray",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
+            "name": "Launch hammingdistance",
+            "request": "launch",
+            "mainClass": "hammingdistance",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
+            "name": "Launch removeduplicates",
+            "request": "launch",
+            "mainClass": "removeduplicates",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
+            "name": "Launch singlrnumber",
+            "request": "launch",
+            "mainClass": "singlrnumber",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
+            "name": "Launch seconddmax",
+            "request": "launch",
+            "mainClass": "seconddmax",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
             "name": "Launch findmissingno",
             "request": "launch",
             "mainClass": "findmissingno",
