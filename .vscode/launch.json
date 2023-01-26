@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch linkedlistcycle",
+            "request": "launch",
+            "mainClass": "linkedlistcycle",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
             "name": "Launch resizeanarray",
             "request": "launch",
             "mainClass": "resizeanarray",
