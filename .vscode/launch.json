@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch nodeatend",
+            "request": "launch",
+            "mainClass": "nodeatend",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
+            "name": "Launch nodeatbeg",
+            "request": "launch",
+            "mainClass": "nodeatbeg",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
             "name": "Launch linkedlistcycle",
             "request": "launch",
             "mainClass": "linkedlistcycle",

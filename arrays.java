@@ -29,7 +29,7 @@ public class arrays {
         // array[4]=5;
         // array[5]=6;
 
-        int i;
+       // int i;
         int[] myarray={5,10,15,20,25,30};
         
         printarray(myarray);
