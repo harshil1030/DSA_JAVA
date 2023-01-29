@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch sll",
+            "request": "launch",
+            "mainClass": "sll",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
             "name": "Launch nodeatend",
             "request": "launch",
             "mainClass": "nodeatend",

@@ -20,7 +20,6 @@ public class linkedlistcycle {
         System.out.println("null");
     } 
 
-    
 
     public void hascycle(ListNode head){
         ListNode fast=head;
