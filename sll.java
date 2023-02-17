@@ -1,9 +1,9 @@
 //Representation of Singly linked List
 public class sll{
+ 
+    private ListNode head;   //instance variable
 
-    private ListNode head;
-
-    private static class ListNode{
+    private static class ListNode{   
         private int data;
         private ListNode next;
 
@@ -37,3 +37,4 @@ public class sll{
         sl.display();
     }
 }
+
