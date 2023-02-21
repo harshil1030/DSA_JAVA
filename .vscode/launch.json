@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch findsingleelement",
+            "request": "launch",
+            "mainClass": "findsingleelement",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
             "name": "Launch deletelnode",
             "request": "launch",
             "mainClass": "deletelnode",
