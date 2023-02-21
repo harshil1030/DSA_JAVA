@@ -1,3 +1,5 @@
+import java.security.Key;
+
 public class searchinsll {
    private ListNode head;
    private static class ListNode{
@@ -48,7 +50,15 @@ public class searchinsll {
     fifth.next=sixth;     //10-->1-->8-->11-->15-->19-->null
     
     sll.print(0);
-    System.out.println(sll.search(sll.head, 8));     //search for 8 in the list
+    //System.out.println(sll.search(sll.head, 8));     //search for 8 in the list
+
+    
+    if(sll.search(sll.head, 8)==true){
+        System.out.println("Element found");
+    }
+    else{
+        System.out.println("Element not found");
+    }
 
    }
 
