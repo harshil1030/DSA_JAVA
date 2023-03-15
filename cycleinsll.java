@@ -12,6 +12,31 @@ public class cycleinsll {
         }
     }
 
+    public ListNode getStartingNode(ListNode slow){
+        ListNode temp=head;
+        while(slow!=temp){
+            temp=temp.next;
+            slow=slow.next;
+        }
+        return temp;
+    }
+
+
+    public hello(ListNode head) {
+        ListNode fast = head;
+        ListNode slow=head;
+
+        while(fast!=null && fast.next!=null){
+            fast=fast.next.next;
+            slow=slow.next;
+            if(fast==slow){
+                return getStartingNode(slow);
+            }
+
+        }
+    }
+
+
     public void display() {
         ListNode current = head;
         while (current != null) {
@@ -38,6 +63,8 @@ public class cycleinsll {
         return true;
     }
 
+
+
     public static void main(String[] args) {
         
         // Object Initialization
@@ -58,10 +85,6 @@ public class cycleinsll {
 
         // sll.display();
         System.out.println(sll.hasCycle(sll.head));
-        // sll.display();
-
+        // sll.display(); 
     }
-
-
-
 }
