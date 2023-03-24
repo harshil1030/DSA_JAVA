@@ -17,7 +17,6 @@ public class queueimp {
             queue[rear]=data;
             rear++;
         }
-
     }
 
     public void dequeu(){
@@ -50,10 +49,9 @@ public class queueimp {
          qmp.enqueue(20);
          qmp.enqueue(30);
          qmp.enqueue(40);
-         qmp.enqueue(50);       
+         qmp.enqueue(60);       
          qmp.dequeu();
          qmp.queueDisplay();
 
-        
     }    
 }
