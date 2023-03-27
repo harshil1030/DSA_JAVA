@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "queimpll",
+            "request": "launch",
+            "mainClass": "queimpll",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
             "name": "queueimp",
             "request": "launch",
             "mainClass": "queueimp",
