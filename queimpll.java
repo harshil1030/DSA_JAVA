@@ -1,3 +1,5 @@
+// Queue Implementation Using Linked List 
+
 public class queimpll {
     private Node front,rear;
     private int queueSize;
@@ -8,7 +10,7 @@ public class queimpll {
     }
 
     public queimpll(){
-        front = null;
+        front = null;   
         rear = null;
         queueSize=0;
     }
@@ -47,7 +49,6 @@ public class queimpll {
         System.out.println("Front data will be :"+front.data);
         System.out.println("Rear Data Will be :"+rear.data);
     }
-    
     public static void main(String[] args) {
         queimpll qmp=new queimpll();
 
