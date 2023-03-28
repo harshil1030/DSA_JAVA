@@ -8,7 +8,7 @@ public class queimpll {
         int data;
         Node next;
     }
-
+    
     public queimpll(){
         front = null;   
         rear = null;
