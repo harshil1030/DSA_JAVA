@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "stackimp",
+            "request": "launch",
+            "mainClass": "stackimp",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
             "name": "queimpll",
             "request": "launch",
             "mainClass": "queimpll",
