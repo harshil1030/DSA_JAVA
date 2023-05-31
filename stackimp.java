@@ -30,12 +30,6 @@ public class stackimp {
         else{
             System.out.print("\nThe Element 9 is Found at " + pos + "th position in Stack");
         }
-
-
-
-
-
-
         
     }
 }
