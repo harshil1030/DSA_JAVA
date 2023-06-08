@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maxvovel",
+            "request": "launch",
+            "mainClass": "maxvovel",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
+            "name": "findmaxsubarr",
+            "request": "launch",
+            "mainClass": "findmaxsubarr",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
             "name": "stackchar",
             "request": "launch",
             "mainClass": "stackchar",
