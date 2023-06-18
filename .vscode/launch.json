@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hashsets",
+            "request": "launch",
+            "mainClass": "hashsets",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
             "name": "hashmap",
             "request": "launch",
             "mainClass": "hashmap",
