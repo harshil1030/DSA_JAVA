@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hashmap",
+            "request": "launch",
+            "mainClass": "hashmap",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
+            "name": "longestsubarr",
+            "request": "launch",
+            "mainClass": "longestsubarr",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
             "name": "maxvovel",
             "request": "launch",
             "mainClass": "maxvovel",
