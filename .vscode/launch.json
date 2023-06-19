@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "arraylist",
+            "request": "launch",
+            "mainClass": "arraylist",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
             "name": "hashsets",
             "request": "launch",
             "mainClass": "hashsets",
