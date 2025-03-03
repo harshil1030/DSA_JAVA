@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "searchinsertpose",
+            "request": "launch",
+            "mainClass": "searchinsertpose",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
+            "name": "binarysearch",
+            "request": "launch",
+            "mainClass": "binarysearch",
+            "projectName": "DSA_JAVA_3d79ed78"
+        },
+        {
+            "type": "java",
             "name": "arraylist",
             "request": "launch",
             "mainClass": "arraylist",

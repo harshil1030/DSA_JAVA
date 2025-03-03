@@ -54,7 +54,7 @@ public class deletelnode {
         sec.next = third;
         third.next = fourth;
         fourth.next = null;
-
+x
         sll.display();
         System.out.println(sll.deletelast().data);
         sll.display();

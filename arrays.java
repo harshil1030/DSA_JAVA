@@ -10,6 +10,10 @@ public class arrays {
         }
     }
 
+
+
+
+
     public static void printrevarray(int[] arr){
        int n=arr.length;
        int i; 
